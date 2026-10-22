@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <div class="night">
+      <h1>Night Show Time</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis minus
+        est quas nisi repudiandae sed dolorem saepe totam? Nobis nihil neque cum
+        praesentium. Rem voluptas aperiam molestiae ipsum, omnis officia!
+      </p>
+      <button type="submit">Submit</button>
+    </div>
+
+    <h2>Ordered List</h2>
+    <ol>
+      <li>Liverpool</li>
+      <li>Arsenal</li>
+      <li>Man City</li>
+    </ol>
+
+    <h2>Unordered List</h2>
+    <ul>
+      <li>Liverpool</li>
+      <li>Arsenal</li>
+      <li>Man City</li>
+    </ul>
+    <ul>
+      <li><a href="">This is Link</a></li>
+    </ul> -->
+    <br /><br />
+    <form action="">
+      <h1 class="form">Regestration Form</h1>
+      <fieldset>
+        <legend><h2 class="personal">Personal Information</h2></legend>
+        <label for="userName">Full Name</label>
+        <input
+          type="text"
+          id="userName"
+          name="userName"
+          placeholder="Enter your foll name"
+          required
+        />
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="********"
+          required
+          minlength="8"
+        />
+        <label for="number">Age</label>
+        <input
+          type="number"
+          id="number"
+          name="number"
+          required
+          min="1"
+          max="100"
+        />
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required />
+        <label for="time">Time</label>
+        <input type="time" id="time" name="time" />
+      </fieldset>
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label>
+      </fieldset>
+      <fieldset>
+        <legend>Interests</legend>
+        <input type="checkbox" id="html" name="interests" value="html" />
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="interests" value="css" />
+        <label for="css">CSS</label>
+        <input type="checkbox" id="javascript" name="css" value="javascript" />
+        <label for="javascript">JavaScript</label>
+      </fieldset>
+      <fieldset>
+        <legend>Course Information</legend>
+        <label for="course">Select Your Course</label>
+        <select name="course" id="course">
+          <option value="">---Choose a Course---</option>
+          <option value="">HTML</option>
+          <option value="">CSS</option>
+          <option value="">JavaScript</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Additonal Information</legend>
+        <label for="message">Why do you want to join?</label>
+        <br />
+        <textarea
+          name="message"
+          id="message"
+          rows="4"
+          cols="40"
+          placeholder="Write your message here..."
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Terms and Conditions</legend>
+        <input
+          type="checkbox"
+          id="terms"
+          name="terms"
+          value="accepted"
+          required
+        />
+        <label for="terms">agree to the terms and conditions.</label>
+        <br />
+        <br />
+        <button type="submit">Submit Gegistration</button>
+        <button type="reset">Clear the Form</button>
+        <br />
+        <br />
+        <label for="number">Choose a Number</label>
+        0<input type="range" id="number" min="0" max="5" step="1" />5
+        <br />
+        <label for="mycolor">Choose a Color</label>
+        <input type="color" id="mycolor" />
+      </fieldset>
+    </form>
+  </body>
+</html>
