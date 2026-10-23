@@ -19,6 +19,8 @@ h1 {
   border-radius: 5px;
   line-height: 50px;
   text-align: center;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 p {
   text-align: justify;
@@ -27,13 +29,13 @@ p {
   padding: 15px;
   color: rgb(244, 248, 245);
 }
-button {
+/* button {
   background-color: rgb(190, 190, 19);
   border-radius: 5px;
   border: none;
   width: 100%;
   line-height: 2;
-}
+} */
 h1:hover {
   color: white;
   background-color: rgb(167, 167, 42);
